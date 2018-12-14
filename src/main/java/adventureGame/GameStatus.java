@@ -4,7 +4,7 @@ public class GameStatus {
 
 	private boolean playerAlive;
 	private String currentDir;
-	
+
 	public GameStatus() {
 		this.playerAlive = true;
 		this.currentDir = "";
@@ -25,7 +25,5 @@ public class GameStatus {
 	public void setCurrentDir(String currentDir) {
 		this.currentDir = currentDir;
 	}
-	
-	
-	
+
 }

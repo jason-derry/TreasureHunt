@@ -10,7 +10,7 @@ public class Runner {
 		String cont = "";
 
 		while(true) {
-						
+					
 			Game fun = new Game();
 			System.out.println(fun.start());
 			fun.printPosition();

@@ -1,7 +1,7 @@
 package adventureGame;
 
 public class Feature extends Coordinates {
-	
+
 	private String name;
 	private boolean visited;
 	private boolean endsGame;
@@ -16,7 +16,7 @@ public class Feature extends Coordinates {
 	public String getName() {
 		return name;
 	}
-	
+
 	public boolean isVisited() {
 		return visited;
 	}
@@ -33,7 +33,5 @@ public class Feature extends Coordinates {
 	public String toString() {
 		return name + " is at (" + this.getX() + ", " + this.getY() + ").";
 	}
-	
-	
-	
+
 }
